@@ -1,0 +1,153 @@
+body {
+	padding-top: 0px;
+	background-color: white;
+}
+
+body, html {
+	height: 100%;
+}
+
+#navigation {
+	background-color: #fff;
+	background-size: cover;
+}
+
+#navigation .navbar-text {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5em;
+	letter-spacing: 3px;
+}
+
+
+
+#landing-photo .jumbotron {
+	
+	background-image: url(../img/workspace.jpg);
+	width: 100%;
+	height: 100%;
+	min-height: 700px;
+	background-size: cover;
+	/*overflow: hidden;*/
+	text-align: center;
+	background-size:  100% 100%;
+	padding-top: 70px;
+	
+}
+
+#landing-photo h2 {
+	color: #222;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 3px;
+	background-color: rgba(255, 255, 255, .8);
+	width: 35%;
+	margin-left: 65%;
+	margin-top: 15%;
+	padding: 10px 0;
+}
+
+#landing-photo h3 {
+	color: #222;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 3px;
+	background-color: rgba(255, 255, 255, .8);
+	width: 600px;
+	margin-left: 40%;
+	margin-top: 5%;
+	padding: 10px 0;
+}
+
+/*#landing-photo .jumbotron {
+	position: relative;
+	background-image: url(/img/workspace.jpg) no-repeat center center;
+	height: 100%;
+	width: 100%;
+	min-height: 300px;
+	background-size: 100% 100%;
+	
+}
+*/
+.img-responsize {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.about-pics {
+	padding-top: 70px;
+	height: 80%;
+	width: 80%;
+
+}
+
+#portfolio-section .container {
+	padding: 70px 0;
+	border-bottom: 1px solid #ccc;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#portfolio-section p {
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 25%;
+}
+
+.todo-pic {
+	margin-left: -40px;
+}
+
+#stemd-section .container {
+	padding: 70px 0;
+	border-bottom: 1px solid #ccc;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#stemd-section h1 {
+	margin-top: -10px;
+	padding-left: 10px;
+}
+
+#stemd-section p {
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 20%;
+}
+
+
+.stemd-pic2 {
+	padding-left: 0px;
+	margin-top: -10px;
+}
+
+
+#about-section .container {
+	padding-top: 10%;
+	padding-bottom: 16%;
+	text-align: center;
+	
+}
+
+#about-section p{
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+
+#header {
+	padding-bottom: 80px;
+}
+.btn {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+}
+
+
+footer {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 3px;
+	margin-top: -50px;
+	padding-bottom: 30px;
+	/*padding-top: 10%;
+	padding-bottom: 10%;*/
+	background-color: #dddfe4; 
+	color: #888;
+}
