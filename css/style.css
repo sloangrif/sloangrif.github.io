@@ -260,7 +260,7 @@ nav li:last-child a { border-bottom: none; }
 	position: relative;
 	display: inline-block;
 	max-width: 100%;
-	max-height: 60%;
+	max-height: 60vh;
 	
 }
 
@@ -268,7 +268,7 @@ nav li:last-child a { border-bottom: none; }
 #landing-section img{
 	
 	max-width: 100%;
-	max-height: 100%;
+	max-height: 60vh;
 	object-fit: cover;
 	 
 }
