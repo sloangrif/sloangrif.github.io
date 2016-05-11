@@ -1,0 +1,492 @@
+body{
+  /*background-color: #fcf8f7;*/
+  /*background-color: #f5e7e2;*/
+  background-color: #faf2f0;
+}
+/* Home page navigation bar */
+header{
+position: fixed;
+width: 100vw;
+height: 10vh;
+background-color: #f5e7e2;
+/*background-color: #faf2f0;*/
+top: 0vh;
+left: 0vw;
+z-index: 9999;
+}
+
+header img{
+  width: 8vw;
+  height: auto;
+  max-height: 10vh;
+  margin-left: 2vw;
+  vertical-align: middle;
+}
+ul{
+  list-style-type: none;
+  float: right;
+  margin-right: 2vw;
+  margin-top: 4vh;
+}
+
+li{
+  display: inline;
+  padding-right: 1.2vw;
+}
+a{
+  font-family: 'Lato';
+  color: #343434;
+  font-size: 2.3vh;
+  text-decoration: none;
+}
+
+/* Homepage body section */
+
+.middle {
+  position: fixed;
+  width: 100vw;
+  height: 50vh;
+  top: 10vh;
+  left: 0vw;
+  background-color: #e9705e;
+  /*background-image: url("pat.png");
+  background-repeat:repeat;*/
+}
+.middle_image{
+  position: absolute;
+  width: 100vw;
+  height: 50vh;
+  top:0vh;
+}
+.middle_image img{
+  position: absolute;
+  width: 100vw;
+  height: 50vh;
+  top:0vh;
+  object-fit: cover;
+}
+.middle p{
+  position: relative;
+  text-align: center;
+  font-family: 'Lato-Light';
+  color: #faf2f0;
+  font-size: 2.2vh;
+  top: 20vh;
+}
+.quote{
+  position: fixed;
+  width: 100vw;
+  height: 25vh;
+  top: 60vh;
+  left: 0vw;
+  background-color: #df7f5a;
+}
+
+.quote p{
+  position: relative;
+  text-align: center;
+  font-family: 'Lato-Thin';
+  font-style: oblique;
+  color: #faf2f0;
+  font-size: 2vh;
+  top: 10vh;
+}
+/* About Page*/
+.me{
+  position: relative;
+  top: 35vh;
+  left: 5vw;
+}
+.me img{
+  width: 40vw;
+  height: auto;
+}
+
+.about{
+  position: fixed;
+  width: 40vw;
+  height: auto;
+  right: 10vw;
+  top: 35vh;
+}
+
+.about p{
+  font-family: 'Lato-Light';
+  font-size: 1.5vw;
+  margin-top: 15vh;
+}
+/* Portfolio Page */
+.portfolio{
+  position:sticky;
+}
+.title{
+  position: relative;
+  text-align: center;
+  font-family: 'DK Lampion';
+  font-size: 10vh;
+  bottom: -20vh;
+  margin: 0;
+  padding: 0;
+  text-decoration: underline;
+
+}
+.row_one{
+  position: relative;
+  display: inline-block;
+  top: 33vh;
+  left: 5vw;
+}
+.shadow_cast{
+  width: 28vw;
+  height: 28vw;
+  float: left;
+  margin-right: 2vw;
+}
+
+.shadow_cast img{
+object-fit: cover;
+width: 100%;
+height: 100%;
+}
+.shadow{
+  position: relative;
+  font-family: 'PenelopeAnne';
+  font-size: 3vw;
+  text-align: center;
+  /*top: 33vh;
+  left: 10vw;*/
+  color: #fcf8f7;
+  z-index: 3;
+  padding-top: 15vh;
+  visibility: hidden;
+}
+.overlay:hover .shadow{
+  visibility: visible;
+}
+
+.overlay{
+  position: absolute;
+  background-color: #faf2f0;
+  width: 28vw;
+  height: 28vw;
+  opacity: 0.15;
+  z-index: 2;
+}
+.overlay:hover{
+  background-color: #1a1919;
+  opacity: 0.8;
+}
+.mapn{
+  width: 28vw;
+  height: 28vw;
+  float: left;
+}
+
+.mapn img{
+object-fit: cover;
+width: 100%;
+height: 100%;
+}
+.wicse{
+  width: 28vw;
+  height: 28vw;
+  float: left;
+  margin-right: 2vw;
+}
+
+.wicse img{
+object-fit: cover;
+width: 100%;
+height: 100%;
+}
+
+.todo{
+  width: 28vw;
+  height: 28vw;
+  float: left;
+  margin-right: 2vw;
+}
+
+.todo img{
+object-fit: cover;
+width: 100%;
+height: 100%;
+}
+
+.row_two{
+  position: relative;
+  display: inline-block;
+  top: 35vh;
+  left: 5vw;
+}
+
+.stemd{
+  width: 28vw;
+  height: 28vw;
+  float: left;
+  margin-right: 2vw;
+}
+
+.stemd img{
+object-fit: cover;
+width: 100%;
+height: 100%;
+}
+
+.ues{
+  width: 28vw;
+  height: 28vw;
+  float: left;
+  margin-right: 2vw;
+}
+
+.ues img{
+object-fit: cover;
+width: 100%;
+height: 100%;
+}
+
+.icons{
+  width: 28vw;
+  height: 28vw;
+  float: left;
+}
+
+.icons img{
+object-fit: cover;
+width: 100%;
+height: 100%;
+}
+
+.row_three{
+  position: relative;
+  display: inline-block;
+  top: 37vh;
+  left: 5vw;
+}
+
+.row_four{
+  position: relative;
+  display: inline-block;
+  top: 39vh;
+  left: 5vw;
+}
+.row_five{
+  position: relative;
+  display: inline-block;
+  top: 41vh;
+  left: 5vw;
+}
+.costanza{
+  width: 28vw;
+  height: 28vw;
+  float: left;
+}
+
+.costanza img{
+object-fit: cover;
+width: 100%;
+height: 100%;
+}
+
+.pie{
+  width: 28vw;
+  height: 28vw;
+  float: left;
+  margin-right: 2vw;
+}
+
+.pie img{
+object-fit: cover;
+width: 100%;
+height: 100%;
+}
+.ferris{
+  width: 28vw;
+  height: 28vw;
+  float: left;
+  margin-right: 2vw;
+}
+
+.ferris img{
+object-fit: cover;
+width: 100%;
+height: 100%;
+}
+
+.oz{
+  width: 28vw;
+  height: 28vw;
+  float: left;
+  margin-right: 2vw;
+}
+
+.oz img{
+object-fit: cover;
+width: 100%;
+height: 100%;
+}
+
+.paradise{
+  width: 28vw;
+  height: 28vw;
+  float: left;
+  margin-right: 2vw;
+}
+
+.paradise img{
+object-fit: cover;
+width: 100%;
+height: 100%;
+}
+
+.doubleEx {
+  width: 28vw;
+  height: 28vw;
+  float: left;
+}
+
+.doubleEx img{
+object-fit: cover;
+width: 100%;
+height: 100%;
+}
+
+/* Animation Page */
+
+.shade {
+  width: 28vw;
+  height: 28vw;
+  float: left;
+  margin-right: 2vw;
+}
+
+.shade img{
+object-fit: cover;
+width: 100%;
+height: 100%;
+}
+
+.baymax{
+  width: 28vw;
+  height: 28vw;
+  float: left;
+  margin-right: 2vw;
+}
+
+.baymax img{
+object-fit: cover;
+width: 100%;
+height: 100%;
+}
+
+.ball {
+  width: 28vw;
+  height: 28vw;
+  float: left;
+}
+
+.ball img{
+object-fit: cover;
+width: 100%;
+height: 100%;
+}
+
+.up {
+  width: 28vw;
+  height: 28vw;
+  float: left;
+  margin-right: 2vw;
+}
+
+.up img{
+object-fit: cover;
+width: 100%;
+height: 100%;
+}
+.bedroom {
+  width: 28vw;
+  height: 28vw;
+  float: left;
+  margin-right: 2vw;
+}
+
+.bedroom img{
+object-fit: cover;
+width: 100%;
+height: 100%;
+}
+/* Element Pages*/
+.side{
+  position: absolute;
+  width: 20vw;
+  top: 24vh;
+}
+.side img{
+  position: static;
+  float: left;
+  width: 40vw;
+  margin-left: 10vw;
+  margin-bottom: 1vh;
+  height: auto;
+}
+.side iframe{
+  margin-left: 10vw;
+  width: 40vw;
+  height: 40vh;
+}
+.explantion{
+  position: absolute;
+  top: 20vh;
+  right: 5vw;
+  width: 40vw;
+  font-family: 'Lato-Light';
+}
+.item{
+  font-size: 3vh;
+}
+.item-about{
+  font-family: 'Lato-Light';
+  font-size: 1.5vw;
+  width: 30vw;
+  height: auto;
+  font-size: 2vh;
+}
+.arrow{
+  position: absolute;
+  width: 2vw;
+  height: auto;
+  right: 1vw;
+  top: 50vh;
+}
+.backarrow{
+  position: absolute;
+  width: 2vw;
+  height: auto;
+  right: 90vw;
+  top: 50vh;
+}
+/* Footer Section */
+footer{
+  position: fixed;
+  left: 46vw;
+  text-align: center;
+  height: 20vh;
+  bottom: -5vh;
+}
+
+footer p{
+  text-align: center;
+  font-family: 'Lato';
+  color: #343434;
+  font-size: 1.5vw;
+}
+
+.round-button{
+  display: inline;
+}
+
+.round-button img{
+  width: 3vw;
+  height: auto;
+}
