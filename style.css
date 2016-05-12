@@ -7,7 +7,7 @@ body{
 }
 @font-face{
   font-family: 'Penelope Anne';
-  src: url(Penelope Anne.ttf);
+  src: url('Penelope Anne.ttf');
 }
 /* Home page navigation bar */
 header{
