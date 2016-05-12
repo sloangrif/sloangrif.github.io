@@ -8,6 +8,8 @@ body{
 @font-face{
   font-family: 'Penelope Anne';
   src: url('Penelope Anne.ttf');
+  font-family: 'DK Lampion';
+  src: url('DK Lampion.otf');
 }
 /* Home page navigation bar */
 header{
