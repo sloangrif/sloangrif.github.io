@@ -98,8 +98,8 @@ a{
   font-family: 'Lato-Thin', 'Lato';
   font-weight: 100;
   font-style: oblique;
-  color: #646060;/*#faf2f0*/
-  font-size: 2.2vh;/*2vh*/
+  color: #faf2f0;
+  font-size: 2vh;
   top: 10vh;
 }
 /* About Page*/
