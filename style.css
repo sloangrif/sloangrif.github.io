@@ -80,7 +80,7 @@ a{
   font-family: 'Lato-Light', 'Lato';
   font-weight: 300;
   color: #faf2f0;
-  font-size: 2.2vh;
+  font-size: 2.8vh;/*2.2vh*/
   top: 20vh;
 }
 .quote{
@@ -98,8 +98,8 @@ a{
   font-family: 'Lato-Thin', 'Lato';
   font-weight: 100;
   font-style: oblique;
-  color: #faf2f0;
-  font-size: 2vh;
+  color: #646060;/*#faf2f0*/
+  font-size: 2.2vh;/*2vh*/
   top: 10vh;
 }
 /* About Page*/
