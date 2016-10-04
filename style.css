@@ -114,7 +114,7 @@ a{
 }
 
 .about{
-  /*position: fixed;*/
+  position: absolute;
   width: 40vw;
   height: auto;
   right: 10vw;
