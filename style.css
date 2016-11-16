@@ -1,9 +1,22 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,100italic,100,300italic,400italic,700,700italic);
 
-body{
+html{
   /*background-color: #fcf8f7;*/
   /*background-color: #f5e7e2;*/
-  background-color: #faf2f0;
+  /*background-color: #faf2f0;*/
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+body{
+  max-width: 1000px;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 0px 0px 10px #eeefff;
 }
 @font-face{
   font-family: 'Penelope Anne';
@@ -14,19 +27,25 @@ body{
 }
 /* Home page navigation bar */
 header{
-position: static;
-width: 100vw;
-height: 10vh;
 /*background-color: #faf2f0;*/
-top: 0vh;
-left: 0vw;
+display: flex;
+justify-content: center;
+flex-direction: column;
+text-align: center;
 }
-
+header img{
+  width: 100%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.heading_banner{
+ background-color: 
+}
 .name{
   text-align: center;
-  font-size: 4rem;
+  font-size: 3rem;
   font-family: 'DK Mango Smoothie', 'DK Lampion';
-  padding: -4rem;
 }
 ul{
   list-style-type: none;
@@ -105,32 +124,26 @@ a:active{
 }
 /* About Page*/
 .me{
-  position: relative;
-  top: 35vh;
-  left: 5vw;
+  display: flex;
 }
 .me img{
-  width: 40vw;
+  width: 30vw;
   height: auto;
+  padding: 2vw;
 }
 
-.about{
-  position: absolute;
-  width: 40vw;
-  height: auto;
-  right: 10vw;
-  top: 30vh;
-}
 
-.about p{
+.me p{
   font-family: 'Lato-Light', 'Lato';
   font-size: 1.5vw;
-  margin-top: 15vh;
   font-weight: 300;
 }
 /* Portfolio Page */
 .portfolio{
-  position:sticky;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
 }
 .title{
   position: relative;
@@ -143,17 +156,11 @@ a:active{
   text-decoration: underline;
 
 }
-.row_one{
-  position: relative;
-  display: inline-block;
-  top: 33vh;
-  left: 5vw;
-}
+
 .shadow_cast{
   width: 28vw;
   height: 28vw;
-  float: left;
-  margin-right: 2vw;
+  margin: 1vw;
 }
 
 .shadow_cast img{
@@ -192,7 +199,7 @@ height: 100%;
 .mapn{
   width: 28vw;
   height: 28vw;
-  float: left;
+  margin: 1vw;
 }
 
 .mapn img{
@@ -203,8 +210,7 @@ height: 100%;
 .wicse{
   width: 28vw;
   height: 28vw;
-  float: left;
-  margin-right: 2vw;
+   margin: 1vw;
 }
 
 .wicse img{
@@ -216,8 +222,7 @@ height: 100%;
 .todo{
   width: 28vw;
   height: 28vw;
-  float: left;
-  margin-right: 2vw;
+    margin: 1vw;
 }
 
 .todo img{
@@ -226,18 +231,12 @@ width: 100%;
 height: 100%;
 }
 
-.row_two{
-  position: relative;
-  display: inline-block;
-  top: 35vh;
-  left: 5vw;
-}
+
 
 .stemd{
   width: 28vw;
   height: 28vw;
-  float: left;
-  margin-right: 2vw;
+    margin: 1vw;
 }
 
 .stemd img{
@@ -249,8 +248,7 @@ height: 100%;
 .ues{
   width: 28vw;
   height: 28vw;
-  float: left;
-  margin-right: 2vw;
+    margin: 1vw;
 }
 
 .ues img{
@@ -262,7 +260,7 @@ height: 100%;
 .icons{
   width: 28vw;
   height: 28vw;
-  float: left;
+    margin: 1vw;
 }
 
 .icons img{
@@ -271,29 +269,11 @@ width: 100%;
 height: 100%;
 }
 
-.row_three{
-  position: relative;
-  display: inline-block;
-  top: 37vh;
-  left: 5vw;
-}
 
-.row_four{
-  position: relative;
-  display: inline-block;
-  top: 39vh;
-  left: 5vw;
-}
-.row_five{
-  position: relative;
-  display: inline-block;
-  top: 41vh;
-  left: 5vw;
-}
 .costanza{
   width: 28vw;
   height: 28vw;
-  float: left;
+   margin: 1vw;
 }
 
 .costanza img{
@@ -305,8 +285,7 @@ height: 100%;
 .pie{
   width: 28vw;
   height: 28vw;
-  float: left;
-  margin-right: 2vw;
+    margin: 1vw;
 }
 
 .pie img{
@@ -317,8 +296,7 @@ height: 100%;
 .ferris{
   width: 28vw;
   height: 28vw;
-  float: left;
-  margin-right: 2vw;
+    margin: 1vw;
 }
 
 .ferris img{
@@ -330,8 +308,7 @@ height: 100%;
 .oz{
   width: 28vw;
   height: 28vw;
-  float: left;
-  margin-right: 2vw;
+    margin: 1vw;
 }
 
 .oz img{
@@ -343,8 +320,7 @@ height: 100%;
 .paradise{
   width: 28vw;
   height: 28vw;
-  float: left;
-  margin-right: 2vw;
+    margin: 1vw;
 }
 
 .paradise img{
@@ -356,7 +332,7 @@ height: 100%;
 .doubleEx {
   width: 28vw;
   height: 28vw;
-  float: left;
+  margin: 1vw;
 }
 
 .doubleEx img{
@@ -370,8 +346,9 @@ height: 100%;
 .shade {
   width: 28vw;
   height: 28vw;
-  float: left;
-  margin-right: 2vw;
+   margin-right: 1vw;
+  margin-left: 1vw;
+  margin-bottom: 1vw;
 }
 
 .shade img{
@@ -383,8 +360,9 @@ height: 100%;
 .baymax{
   width: 28vw;
   height: 28vw;
-  float: left;
-  margin-right: 2vw;
+    margin-right: 1vw;
+  margin-left: 1vw;
+  margin-bottom: 1vw;
 }
 
 .baymax img{
@@ -396,7 +374,9 @@ height: 100%;
 .ball {
   width: 28vw;
   height: 28vw;
-  float: left;
+    margin-right: 1vw;
+  margin-left: 1vw;
+  margin-bottom: 1vw;
 }
 
 .ball img{
@@ -408,8 +388,9 @@ height: 100%;
 .up {
   width: 28vw;
   height: 28vw;
-  float: left;
-  margin-right: 2vw;
+    margin-right: 1vw;
+  margin-left: 1vw;
+  margin-bottom: 1vw;
 }
 
 .up img{
@@ -420,8 +401,9 @@ height: 100%;
 .bedroom {
   width: 28vw;
   height: 28vw;
-  float: left;
-  margin-right: 2vw;
+  margin-right: 1vw;
+  margin-left: 1vw;
+  margin-bottom: 1vw;
 }
 
 .bedroom img{
