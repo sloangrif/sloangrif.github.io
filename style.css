@@ -500,3 +500,21 @@ footer p{
   width: 3vw;
   height: auto;
 }
+
+@media screen and (max-width: 799px){
+  .me{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.about_image{
+  width: 80%;
+  height: 80%;
+}
+.about_text{
+  width: 80%;
+}
+
+}
