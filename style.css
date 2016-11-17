@@ -56,7 +56,7 @@ li{
   display: inline;
   padding-right: 5vw;
 }
-a{
+.navigation a{
   font-family: 'Lato';
   font-weight: 400;
   color: #343434;
@@ -125,18 +125,29 @@ a:active{
 /* About Page*/
 .me{
   display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
-.me img{
-  width: 30vw;
+
+.about_image{
+  width: 40%;
   height: auto;
-  padding: 2vw;
+  margin: 2vw;
 }
-
-
-.me p{
+.about_text{
+  width: 40%;
+  height: auto;
+  margin: 2vw;
+}
+.about_text p{
   font-family: 'Lato-Light', 'Lato';
-  font-size: 1.5vw;
+  font-size: 1em;
   font-weight: 300;
+}
+.about_text a{
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
 }
 /* Portfolio Page */
 .portfolio{
@@ -412,31 +423,33 @@ width: 100%;
 height: 100%;
 }
 /* Element Pages*/
+.showcase{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 .side{
-  position: absolute;
-  width: 20vw;
-  top: 40vh;
+  display: flex;
+  flex-direction: column;
 }
 .side img{
   position: static;
-  float: left;
-  width: 40vw;
-  margin-left: 10vw;
-  margin-bottom: 1vh;
+  width: 30vw;
   height: auto;
+  margin: 2vw;
 }
 .side iframe{
-  margin-left: 10vw;
-  width: 40vw;
-  height: 40vh;
+  width: 30vw;
+  height: 30vh;
+  margin: 2vw;
 }
 .explantion{
-  position: absolute;
-  top: 40vh;
-  right: 5vw;
-  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
   font-family: 'Lato-Light', 'Lato';
   font-weight: 300;
+  margin: 2vw;
 }
 .item{
   font-size: 3vh;
@@ -451,17 +464,17 @@ height: 100%;
 }
 .arrow{
   position: absolute;
+  top: 90vh;
+  right: 5vw;
   width: 2vw;
   height: auto;
-  right: 1vw;
-  top: 50vh;
 }
 .backarrow{
   position: absolute;
   width: 2vw;
   height: auto;
-  right: 90vw;
-  top: 50vh;
+  left: 5vw;
+  top: 90vh;
 }
 /* Footer Section */
 footer{
