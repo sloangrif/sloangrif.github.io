@@ -63,10 +63,10 @@ li{
   font-size: 2.8vh;
   text-decoration: none;
 }
-a:active{
+.navigation a:active{
   font-weight: 800;
 }
-.active{
+.navigation .active{
   font-weight: 800;
 }
 /* Homepage body section */
@@ -131,7 +131,7 @@ a:active{
 
 .about_image{
   width: 40%;
-  height: auto;
+  height: 40%;
   margin: 2vw;
 }
 .about_text{
