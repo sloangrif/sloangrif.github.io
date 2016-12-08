@@ -167,7 +167,11 @@ li{
   text-decoration: underline;
 
 }
-
+.game_on{
+  width: 28vw;
+  height: 28vw;
+  margin: 1vw;
+}
 .shadow_cast{
   width: 28vw;
   height: 28vw;
@@ -178,6 +182,12 @@ li{
 object-fit: contain;
 width: 100%;
 height: 100%;
+}
+
+.game_on img{
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
 }
 .shadow{
   position: relative;
